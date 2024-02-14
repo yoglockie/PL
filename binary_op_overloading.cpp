@@ -1,5 +1,4 @@
 //binary operator overloading
-
 #include<iostream>
 using namespace std;
 class bin
@@ -11,7 +10,6 @@ class bin
         cout<<"Enter the values of x & y = ";
         cin>>x>>y;
     }
-
     bin operator +(bin &a)
     {
       bin temp;
@@ -19,7 +17,6 @@ class bin
       temp.y= x+ a.y;
 
       return temp;
-
     }
     void show()
     {
